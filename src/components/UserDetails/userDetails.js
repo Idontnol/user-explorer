@@ -38,7 +38,7 @@ const UserDetails = () => {
         <div className="toggle-switch" onClick={toggleTheme}>
           <div className={`toggle-knob ${theme === 'light' ? 'light' : 'dark'}`}>
             {theme === 'light' ? (
-              <img src={`./sun-icon.svg`} alt="Sun" />
+              <img src={`sun-icon.svg`} alt="Sun" />
             ) : (
               <img src={`moon-icon.svg`} alt="Moon" />
             )}
@@ -48,7 +48,7 @@ const UserDetails = () => {
             Go Back
         </button>
         <div className='user-details-container'>
-            <img src="./usertemp.jpg" className='' alt="user icon" />
+            <img src={`${theme === 'light' ?'usertemp.png': 'usertemp32.png'}`} className='' alt="user icon" />
             {/* <h1 className="title">{user?.name}</h1> */}
             <p><strong>Name:</strong> {user?.name}</p>
             <p><strong>Email:</strong> {user?.email}</p>

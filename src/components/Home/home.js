@@ -90,7 +90,7 @@ const Home = () => {
       <ul className="user-list">
         {sortedUsers.map(user => (
           <li key={user.id} className="user-item">
-            <Link to={`/users/${user.id}`} className="user-link">
+            <Link to={`/${user.id}`} className="user-link">
               {user.name} - {user.email} - {user.address.city}
             </Link>
           </li>

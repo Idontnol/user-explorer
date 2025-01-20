@@ -46,3 +46,13 @@ p {
   font-size: 1.3em;
 
 }
+.user-details-container img{
+  height:60px;
+  width:60px;
+}
+body.dark {
+  .user-details-container img{
+    height:45px;
+    width:45px;
+  }
+}

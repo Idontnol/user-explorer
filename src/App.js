@@ -14,7 +14,7 @@ function App() {
       <UserProvider>
          <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/users/:id" element={<UserDetails />} />
+            <Route path="/:id" element={<UserDetails />} />
           </Routes>
         </UserProvider>
         </ThemeProvider>
