@@ -1,0 +1,48 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--box-shadow-color); */
+}
+
+.back-button {
+  display: block;
+  padding: 12px;
+  background-color: var(--button-background);
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: var(--button-hover-background);
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.user-details-container{
+  text-align: left;
+  padding-left:7vw;
+  padding-top:5vh;
+}
+.user-details-container p{
+  font-size: 1.3em;
+
+}
